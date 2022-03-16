@@ -7,6 +7,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.Date;
+
 @Data
 @TableName(value = "sys_user")
 @ToString
@@ -21,5 +23,6 @@ public class User {
     private String phone;
     private String address;
     private String avatar;
+    private Date createTime;
 }
 
