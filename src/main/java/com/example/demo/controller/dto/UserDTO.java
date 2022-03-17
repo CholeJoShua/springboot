@@ -1,6 +1,9 @@
 package com.example.demo.controller.dto;
 
+import com.example.demo.entity.Menu;
 import lombok.Data;
+
+import java.util.List;
 
 /**
  * 接受前端请求参数
@@ -12,5 +15,7 @@ public class UserDTO {
     private String nickname;
     private String avatar;
     private String token;
+    private String role;
+    private List<Menu> menus;
 
 }
