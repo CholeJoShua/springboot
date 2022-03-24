@@ -8,6 +8,8 @@ import java.util.List;
 
 //@Mapper
 public interface UserMapper extends BaseMapper<User> {
+//    static void selectTotal() {
+//    }
 //    @Select("SELECT * from sys_user")
 //    List<User> findAll();
 //

@@ -68,6 +68,11 @@ public class UserController {
         return Result.success(userService.list());
     }
 
+    //查询所有数据个数
+    @GetMapping("/number")
+    public Result getNum(){
+        return Result.success(userService.list().size());
+    }
 
     //新增或者更新
     @PostMapping
